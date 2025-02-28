@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.counter-app {
+    background-color: #f9d5a7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.counter-app h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.counter-app .value {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #28a745;
+}
+.counter-app button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.counter-app .increment {
+    background-color: #28a745;
+    color: white;
+}
+.counter-app .decrement {
+    background-color: #dc3545;
+    color: white;
+}
+.counter-app input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100px;
+    text-align: center;
+}
+.counter-app .increment-by-value,
+.counter-app .decrement-by-value {
+    background-color: #17a2b8;
+    color: white;
+}
